@@ -15,7 +15,13 @@ export default function Toggle() {
 
   return (
     <>
-      <DarkModeSwitch checked={darkSide} onChange={toggleDarkMode} size={15} />
+      <DarkModeSwitch
+        checked={darkSide}
+        onChange={toggleDarkMode}
+        size={15}
+        moonColor="white"
+        sunColor="white"
+      />
     </>
   );
 }
