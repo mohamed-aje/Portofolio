@@ -11,7 +11,7 @@ export const skills = [
 export const projects = [
   {
     title: "Office Space Reservations System",
-    subtitle: "Postgres, JAVA, React",
+    subtitle: "Postgres, Java, React",
     description: "Office space booking for Oikeusrekisterikeskus ",
     image: "./Office Space Reservation System.gif",
     link: "",

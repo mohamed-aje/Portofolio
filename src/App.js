@@ -2,7 +2,7 @@ import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Projects from "./components/projects";
-import Contact from "./components/Contact";
+import Contacts from "./components/Contact";
 
 const App = () => {
   return (
@@ -11,7 +11,7 @@ const App = () => {
         <Navbar />
         <Home />
         <Projects />
-        <Contact />
+        <Contacts />
       </main>
 
       <Footer />

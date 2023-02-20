@@ -26,7 +26,7 @@ export default function Contact() {
 
   return (
     <div class="rk:text-gray-400 dark:bg-gray-800 body-font   ">
-      <section class=" text-gray-800 dark:bg-gray-800">
+      <section id="contact" class="text-gray-800 dark:bg-gray-800">
         <div class="relative overflow-hidden bg-no-repeat bg-cover"></div>
         <div class="container text-gray-800 px-4 md:px-12">
           <div class="block rounded-lg shadow-lg py-10 md:py-12 px-4 md:px-6">
@@ -57,7 +57,7 @@ export default function Contact() {
               </div>
             </div>
             <div class="max-w-[700px] mx-auto">
-              <form onSubmit={handleSubmit}>
+              <form name="contact" onSubmit={handleSubmit}>
                 <div class="form-group mb-6">
                   <input
                     type="text"
@@ -76,6 +76,7 @@ export default function Contact() {
               m-0
               focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                     id="name"
+                    name="name"
                     placeholder="Name"
                     onChange={(e) => setName(e.target.value)}
                   />
@@ -85,6 +86,7 @@ export default function Contact() {
                     type="email"
                     onChange={(e) => setEmail(e.target.value)}
                     class="form-control block
+                    
               w-full
               px-3
               py-1.5
@@ -121,7 +123,8 @@ export default function Contact() {
               m-0
               focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
             "
-                    id="exampleFormControlTextarea13"
+                    id="message"
+                    name="message"
                     rows="3"
                     placeholder="Message"
                     onChange={(e) => setMessage(e.target.value)}
