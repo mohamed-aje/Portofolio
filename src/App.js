@@ -1,15 +1,17 @@
-import About from "./components/About";
+import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import Skills from "./components/Skills";
+import Projects from "./components/projects";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
     <>
       <main className="dark:text-gray-400 dark:bg-white-900 body-font">
         <Navbar />
-        <About />
-        <Skills />
+        <Home />
+        <Projects />
+        <Contact />
       </main>
 
       <Footer />

@@ -6,7 +6,7 @@ export default function Navbar() {
     <header className="dark:bg-gray-900 ç md:sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="title-font font-medium hover:text-white mb-4 md:mb-0">
-          <a href="#about" className="ml-3 hover:text-white">
+          <a href="#home" className="ml-3 hover:text-white">
             Mohamed Al-Ajily
           </a>
         </a>
@@ -14,11 +14,14 @@ export default function Navbar() {
           <a href="#projects" className="mr-5 hover:text-white ">
             Projects
           </a>
-          <a href="#skills" className="mr-5 hover:text-white ">
-            Skills
+          <a href="#home" className="mr-5 hover:text-white ">
+            Home
           </a>
           <a href="#references" className="mr-5 hover:text-white ">
             References
+          </a>
+          <a href="#contacts" className="mr-5 hover:text-white ">
+            Contacts
           </a>
         </nav>
         <a
