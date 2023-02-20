@@ -25,12 +25,12 @@ export default function Contact() {
   }
 
   return (
-    <div class="rk:text-gray-400 dark:bg-gray-800 body-font   ">
-      <section id="contact" class="text-gray-800 dark:bg-gray-800">
+    <section id="contact" class="text-gray-800 dark:bg-gray-800">
+      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap ">
         <div class="relative overflow-hidden bg-no-repeat bg-cover"></div>
         <div class="container text-gray-800 px-4 md:px-12">
           <div class="block rounded-lg shadow-lg py-10 md:py-12 px-4 md:px-6">
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-x-6 mb-12">
+            <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-x-3 mb-12 ">
               <div class="mb-12 lg:mb-0 text-center mx-auto">
                 <svg
                   class="w-8 h-8 text-blue-600 mb-6 mx-auto"
@@ -158,7 +158,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 }
