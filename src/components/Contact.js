@@ -25,15 +25,18 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" class="text-gray-800 dark:bg-gray-800">
+    <section
+      id="contact"
+      class="text-gray-800 dark:bg-gradient-to-r from-sky-800 to-indigo-500"
+    >
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap ">
         <div class="relative overflow-hidden bg-no-repeat bg-cover"></div>
         <div class="container text-gray-800 px-4 md:px-12">
-          <div class="block rounded-lg shadow-lg py-10 md:py-12 px-4 md:px-6">
+          <div class="block rounded-lg shadow-2xl py-10 md:py-12 px-4 md:px-6">
             <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-x-6 mb-12 ">
               <div class="mb-12 lg:mb-0 text-center mx-auto">
                 <svg
-                  class="w-8 h-8 text-blue-600 mb-6 mx-auto"
+                  class="w-8 h-8 text-gray-600 mb-6 mx-auto"
                   viewBox="0 0 496 512"
                 >
                   <path
@@ -45,7 +48,7 @@ export default function Contact() {
               </div>
               <div class="mb-12 lg:mb-0 text-center mx-auto dark:text-white">
                 <svg
-                  class="w-8 h-8 text-blue-600 mb-6 mx-auto"
+                  class="w-8 h-8 text-gray-600 mb-6 mx-auto"
                   viewBox="0 0 384 512"
                 >
                   <path
@@ -121,7 +124,7 @@ export default function Contact() {
               transition
               ease-in-out
               m-0
-              focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+              focus:text-gray-700 focus:bg-white focus:border-gray-600 focus:outline-none
             "
                     id="message"
                     name="message"
@@ -137,7 +140,7 @@ export default function Contact() {
             w-full
             px-6
             py-2.5
-            bg-blue-600
+            bg-gray-600
             text-white
             font-medium
             text-xs
@@ -145,7 +148,7 @@ export default function Contact() {
             uppercase
             rounded
             shadow-md
-            hover:bg-blue-700 hover:shadow-lg
+            hover:bg-green-700 hover:shadow-lg
             focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
             active:bg-blue-800 active:shadow-lg
             transition
