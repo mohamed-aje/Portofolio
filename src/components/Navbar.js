@@ -19,6 +19,9 @@ export default function Navbar() {
           <a href="#contact" className="mr-5 dark:text-white ">
             Contacts
           </a>
+          <a href="#publications" className="mr-5 dark:text-white ">
+            Publications
+          </a>
         </nav>
         <a
           href="Mohamed_Al-Ajily_CV.pdf"
