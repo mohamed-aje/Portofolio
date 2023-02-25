@@ -15,7 +15,13 @@ export default function Contact() {
         form.current,
         "fu-5fnw2UsLBPfB1k"
       )
-      .then(() => alert("Message sent!"))
+      .then((result) => {
+        console.log(result.text);
+        // Clears form/inputs after button is Selected
+        alert("Message Sent Successfully!!");
+        form.current.reset();
+      })
+
       .catch((error) => alert(error));
   };
 
