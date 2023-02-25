@@ -1,9 +1,4 @@
-import {
-  CodeBracketSquareIcon,
-  CheckBadgeIcon,
-  CpuChipIcon,
-  RocketLaunchIcon,
-} from "@heroicons/react/24/solid";
+import { CpuChipIcon, RocketLaunchIcon } from "@heroicons/react/24/solid";
 import React from "react";
 import { skills } from "../data";
 

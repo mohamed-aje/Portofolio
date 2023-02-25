@@ -3,6 +3,8 @@ export const skills = [
   "React",
   "PrimeReact",
   "NodeJs",
+  "TypeScript",
+  "Devops",
   "Test Automation",
   "Robot Framework",
   "Cypress",

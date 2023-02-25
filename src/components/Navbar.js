@@ -10,12 +10,13 @@ export default function Navbar() {
           </a>
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center  justify-center">
-          <a href="#projects" className="mr-5 dark:text-white  ">
-            Projects
-          </a>
           <a href="#home" className="mr-5 dark:text-white ">
             Home
           </a>
+          <a href="#projects" className="mr-5 dark:text-white  ">
+            Projects
+          </a>
+
           <a href="#contact" className="mr-5 dark:text-white ">
             Contacts
           </a>
