@@ -21,7 +21,7 @@ export default function Toggle() {
         size={15}
         moonColor="white"
         sunColor="white"
-        className="hover:motion-safe:animate-spin"
+        className="hover:motion-safe:animate-spin "
       />
     </>
   );

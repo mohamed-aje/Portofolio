@@ -26,13 +26,13 @@ export default function Home() {
           <div className="flex justify-center">
             <a
               href="#contact"
-              className="inline-flex text-white bg-gray-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded "
+              className="inline-flex text-white bg-gray-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded  hover:animate-bounce"
             >
               Contact me
             </a>
             <a
               href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-2 py-2 px-6 focus:outline-none hover:bg-700 hover:bg-green-600 text-white rounded "
+              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-2 py-2 px-6 focus:outline-none hover:bg-700 hover:bg-green-600 text-white rounded hover:animate-bounce"
             >
               Projects
             </a>
