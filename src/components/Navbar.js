@@ -27,10 +27,11 @@ export default function Navbar() {
         <a
           href="Mohamed_Al-Ajily_CV.pdf"
           download={"Mohamed_Al-Ajily_CV.pdf"}
-          className="inline-flex items-center  border-0 py-1 px-3 focus:outline-none  rounded dark:text-white mt-4 md:mt-0 "
+          className="inline-flex items-center hover:animate-bounce border-0 py-1 px-3 focus:outline-none  rounded dark:text-white mt-4 md:mt-0 "
         >
           Resume{" "}
         </a>
+
         <a
           href="#contacts"
           className="inline-flex items-center bg-gray-800    focus:outline-none hover:bg-gray-700 rounded hover:text-white mt-4 md:mt-0"
