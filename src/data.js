@@ -23,6 +23,12 @@ export const projects = [
     description: "Authentication system, Login and registeration. ",
     image: "./Authentication.gif",
   },
+  {
+    title: "Santa Slide Unity Game",
+    subtitle: "Unity, Blender, C#",
+    description: "Santa Slide, Avoiding barriers and achieveing High Scores. ",
+    image: "./pelivideo1.gif",
+  },
 ];
 export const publications = [
   {
