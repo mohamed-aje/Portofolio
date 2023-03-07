@@ -29,6 +29,13 @@ export const projects = [
     description: "Santa Slide, Avoiding barriers and achieveing High Scores. ",
     image: "./pelivideo1.gif",
   },
+  {
+    title: "Hotel Project",
+    subtitle: "PHP, MySQL, Docker",
+    description:
+      "Simple Php hotel website for booking rooms and login system. ",
+    image: "./phphotel.gif",
+  },
 ];
 export const publications = [
   {
