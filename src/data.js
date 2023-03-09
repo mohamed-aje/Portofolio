@@ -18,6 +18,12 @@ export const projects = [
     image: "./Office Space Reservation System.gif",
   },
   {
+    title: "GPT front end",
+    subtitle: "React, front end ",
+    description: "Single page app with react Js. ",
+    image: "./reactgpt.gif",
+  },
+  {
     title: "Authentication System",
     subtitle: "Postgres, Express, React, NodeJs",
     description: "Authentication system, Login and registeration. ",
