@@ -16,11 +16,13 @@ export default function Home() {
             Applications is My Passion.
           </h1>
           <p className="mb-8 leading-relaxed dark:text-white">
-            I’m a highly motivated fresh graduate, I'm capable of handling
-            multiple tasks on daily basis, dependable person who is great at
-            time management, I’m honest and trustworthy and my personal saying
-            is “vision without action is just a daydream” because I believe that
-            with hard work and dedication, you can make any dream a reality.
+            I am a passionate recent graduate with Permanent residence permit. I
+            graduated from Häme University of Applied Sciences (HAMK) with a GPA
+            of 4, majoring in software development. I have studied very hard and
+            I am looking forward to translating all the hard work, effort, and
+            dedication I have put into studying into real results. In my spare
+            time, I enjoy going for a walk, reading, training, socialising, and
+            streaming.
           </p>
 
           <div className="flex justify-center">

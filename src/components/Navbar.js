@@ -1,5 +1,6 @@
 import React from "react";
 import Toggle from "../hooks/Toggle";
+import Clock from "./Clock";
 import { Dropdown } from "./Dropdown";
 export default function Navbar() {
   return (
@@ -41,6 +42,7 @@ export default function Navbar() {
           <Toggle />
         </a>
         <Dropdown />
+        <Clock />
       </div>
     </header>
   );

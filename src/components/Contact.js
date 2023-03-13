@@ -33,7 +33,7 @@ export default function Contact() {
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap ">
         <div className="relative overflow-hidden bg-no-repeat bg-cover"></div>
         <div className="container text-gray-800 px-4 md:px-12">
-          <div className="block rounded-lg shadow-2xl py-10 md:py-12 px-4 md:px-6">
+          <div className="block rounded-lg shadow-xl py-10 md:py-12 px-4 md:px-6">
             <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-x-6 mb-12 ">
               <div className="mb-12 lg:mb-0 text-center mx-auto">
                 <svg

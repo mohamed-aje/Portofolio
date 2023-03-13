@@ -12,19 +12,20 @@ export const skills = [
 ];
 export const projects = [
   {
-    title: "Office Space Reservations System",
-    subtitle: "Postgres, Java, React",
-    description: "Office space booking for Oikeusrekisterikeskus ",
-    image: "./Office Space Reservation System.gif",
-    link: "https://github.com/mohamed-aje/ICT-project_booking-system",
-  },
-  {
     title: "GPT front end",
     subtitle: "React, front end ",
     description: "Single page app with react Js. ",
     image: "./reactgpt.gif",
     link: "https://github.com/mohamed-aje/GPT",
   },
+  {
+    title: "Office Space Reservations System",
+    subtitle: "Postgres, Java, React",
+    description: "Office space booking for Oikeusrekisterikeskus ",
+    image: "./Office Space Reservation System.gif",
+    link: "https://github.com/mohamed-aje/ICT-project_booking-system",
+  },
+
   {
     title: "Authentication System",
     subtitle: "Postgres, Express, React, NodeJs",
