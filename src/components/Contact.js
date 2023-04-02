@@ -28,7 +28,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="text-gray-800 dark:bg-gradient-to-r from-sky-800 to-indigo-500"
+      className="text-gray-800 dark:bg-gradient-to-r from-sky-900 to-indigo-800 "
     >
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap ">
         <div className="relative overflow-hidden bg-no-repeat bg-cover"></div>

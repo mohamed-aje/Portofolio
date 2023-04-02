@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="dark:text-gray-400 dark:bg-gradient-to-r from-sky-800 to-indigo-500 body-font"
+      className="dark:text-gray-400 dark:bg-gradient-to-r from-sky-900 to-indigo-800 body-font"
     >
       <div className="container px-5 py-10 mx-auto text-center lg:px-40 ">
         <div className="flex flex-col w-full mb-20">

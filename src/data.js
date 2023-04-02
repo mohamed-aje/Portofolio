@@ -3,7 +3,6 @@ export const skills = [
   "React",
   "PrimeReact",
   "NodeJs",
-  "TypeScript",
   "Devops",
   "Test Automation",
   "Robot Framework",
@@ -27,11 +26,11 @@ export const projects = [
   },
 
   {
-    title: "Authentication System",
+    title: "Authentication System With PERN Stack",
     subtitle: "Postgres, Express, React, NodeJs",
     description: "Authentication system, Login and registeration. ",
-    image: "./Authentication.gif",
-    link: "https://github.com/mohamed-aje/Authentication-System",
+    image: "./authentication.gif",
+    link: "https://github.com/mohamed-aje/Pern-Authentication",
   },
   {
     title: "Santa Slide Unity Game",
