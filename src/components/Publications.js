@@ -6,7 +6,7 @@ const Publications = () => {
   return (
     <section
       id="publications"
-      className="dark:text-gray-400 dark:bg-gradient-to-r from-sky-900 to-indigo-800  body-font"
+      className="dark:text-gray-400 dark:bg-gradient-to-r from-sky-700 via-cyan-900 to-sky-700  body-font"
     >
       <div className="container px-5 py-10 mx-auto text-center lg:px-40 ">
         <div className="flex flex-col w-full mb-20 items-center	">

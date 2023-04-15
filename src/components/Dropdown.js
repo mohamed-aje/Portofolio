@@ -33,15 +33,6 @@ export const Dropdown = () => {
         >
           <li>
             <a
-              class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white hover:animate-bounce "
-              href="cv_m.pdf"
-              download={"cv_m.pdf"}
-            >
-              Resume
-            </a>
-          </li>
-          <li>
-            <a
               href="Transcript_of_records.pdf"
               class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white hover:animate-bounce"
               download={"Transcript_of_records.pdf"}

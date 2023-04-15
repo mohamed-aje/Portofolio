@@ -4,7 +4,7 @@ import Clock from "./Clock";
 import { Dropdown } from "./Dropdown";
 export default function Navbar() {
   return (
-    <header className="dark:bg-gradient-to-b from-sky-900 to-indigo-800 md:sticky top-0 z-10">
+    <header className="dark:bg-gradient-to-r from-sky-800 via-cyan-900 to-sky-800 md:sticky top-0 z-10 ">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="title-font font-medium dark:text-white mb-4 md:mb-0">
           <a href="#home" className="ml-3 dark:text-white ">

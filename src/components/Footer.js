@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="p-4 bg-white sm:p-6 dark:bg-gradient-to-r from-sky-900 to-indigo-800">
+    <footer className="p-4 bg-white sm:p-6 dark:bg-gradient-to-r from-sky-800 via-cyan-900 to-sky-800">
       <div className="md:flex md:justify-between"></div>
       <div className="sm:flex sm:items-center sm:justify-between">
         <span className="text-sm text-gray-500 sm:text-center text-gray-400 dark:text-white">

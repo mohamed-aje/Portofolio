@@ -3,13 +3,22 @@ export const skills = [
   "React",
   "PrimeReact",
   "NodeJs",
-  "Devops",
+  "Fast API",
+  "Java",
+  "C#",
+  "DevOps",
   "Test Automation",
   "Robot Framework",
   "Cypress",
-  "Fast API",
 ];
 export const projects = [
+  {
+    title: "Full stack Blogs Application",
+    subtitle: "Mern stack ",
+    description: "Blogs application with CRUD operations. ",
+    image: "./blogs_app.gif",
+    link: "https://github.com/mohamed-aje/Blogs--main",
+  },
   {
     title: "GPT front end",
     subtitle: "React, front end ",
