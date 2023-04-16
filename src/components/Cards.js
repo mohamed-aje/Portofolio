@@ -6,10 +6,10 @@ const Cards = () => {
       <h5 className="mb-3 text-base font-semibold text-gray-900 md:text-xl dark:text-white text-center">
         Key Skills & Technologies
       </h5>
-      <p class="text-sm font-normal text-gray-500 "></p>
+      <p className="text-sm font-normal text-gray-500 "></p>
       <div className=" lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2 ">
-        {skills.map((skill) => (
-          <div key={skill}>
+        {skills.map((skill, index) => (
+          <div key={index}>
             <div className="bg-gray-800 rounded flex p-4 h-full items-center my-2 text-center hover:bg-green-800 ">
               <span className=" flex flex-wrap title-font font-medium text-white ">
                 <CheckBadgeIcon className="h-6 w-6 text-blue-500 mx-2 " />{" "}

@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/projects";
 import Contacts from "./components/Contact";
 import Publications from "./components/Publications";
-
+import Tabs from "./components/Tabs";
 const App = () => {
   return (
     <>
@@ -12,8 +12,9 @@ const App = () => {
         <Navbar />
         <Home />
         <Projects />
-        <Contacts />
+        <Tabs color="gray" />
         <Publications />
+        <Contacts />
       </main>
 
       <Footer />
