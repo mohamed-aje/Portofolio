@@ -1,7 +1,6 @@
 import React from "react";
 import Toggle from "../hooks/Toggle";
 import Clock from "./Clock";
-import { Dropdown } from "./Dropdown";
 export default function Navbar() {
   return (
     <header className="dark:bg-gradient-to-r from-sky-800 via-cyan-900 to-sky-800 md:sticky top-0 z-10 ">
@@ -23,16 +22,22 @@ export default function Navbar() {
           </a>
 
           <a
-            href="#contact"
-            className="mr-5 dark:text-white hover:animate-bounce"
-          >
-            Contacts
-          </a>
-          <a
             href="#publications"
             className="mr-5 dark:text-white hover:animate-bounce "
           >
             Publications
+          </a>
+          <a
+            href="#certificates"
+            className="mr-5 dark:text-white hover:animate-bounce "
+          >
+            Certifications
+          </a>
+          <a
+            href="#contact"
+            className="mr-5 dark:text-white hover:animate-bounce"
+          >
+            Contacts
           </a>
         </nav>
         <a
@@ -41,7 +46,6 @@ export default function Navbar() {
         >
           <Toggle />
         </a>
-        <Dropdown />
         <Clock />
       </div>
     </header>

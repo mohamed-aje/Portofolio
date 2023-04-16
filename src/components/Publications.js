@@ -1,7 +1,7 @@
 import React from "react";
 import { PaintBrushIcon } from "@heroicons/react/24/solid";
 
-import { projects, publications } from "../data";
+import { publications } from "../data";
 const Publications = () => {
   return (
     <section
@@ -19,12 +19,8 @@ const Publications = () => {
             <br />
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base "></p>
-          {publications.map((pub) => (
-            <a
-              key={publications.image}
-              className="sm:w-1/2 w-100 p-4"
-              href={pub.link}
-            >
+          {publications.map((pub, index) => (
+            <a key={index} className="sm:w-1/2 w-100 p-4" href={pub.link}>
               <div className="flex relative">
                 <img
                   alt="gallery"
