@@ -10,7 +10,7 @@ const Clock = () => {
   };
   setInterval(updateTime, 1000);
   return (
-    <div className=" italic hover:not-italic  font-semibold	 tracking-tight hover:tracking-wide leading-4 dark:text-white	">
+    <div className=" italic hover:not-italic  font-semibold	 tracking-tight hover:tracking-wide leading-4 dark:text-white	mx-2 my-2">
       {currentTime}
     </div>
   );
