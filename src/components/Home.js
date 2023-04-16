@@ -16,7 +16,7 @@ export default function Home() {
             Applications is My Passion.
           </h1>
           <p className="mb-8 leading-relaxed dark:text-white">
-            I am a passionate recent graduate with Permanent residence permit. I
+            I am a passionate recent graduate with permanent residence permit. I
             graduated from Häme University of Applied Sciences (HAMK) with a GPA
             of 4, majoring in software development. I have studied very hard and
             I am looking forward to translating all the hard work, effort, and
