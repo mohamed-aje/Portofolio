@@ -10,8 +10,8 @@ const Publications = () => {
     >
       <div className="container px-5 py-10 mx-auto text-center lg:px-40 ">
         <div className="flex flex-col w-full mb-20 items-center	">
-          <PaintBrushIcon className="mx-auto inline-block w-10 mb-4 dark:text-white " />
-          <em className=" text-center font-medium title-font mb-4 dark:text-white">
+          <span class="h-1 w-full dark:bg-white	bg-gray-800 lg:w-full	"></span>
+          <em className=" text-center font-medium title-font mb-4 dark:text-white mt-4">
             ‹Thesis›
           </em>
           <h1 className="text-center sm:text-4xl text-3xl font-medium title-font mb-4 dark:text-white ">

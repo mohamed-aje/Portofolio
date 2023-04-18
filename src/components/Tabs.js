@@ -8,7 +8,7 @@ const Tabs = ({ color }) => {
       className="dark:bg-gradient-to-r from-sky-700 via-cyan-900 to-sky-700 "
     >
       <div className="flex flex-col w-full mb-14 items-center	">
-        <em className=" text-center font-medium title-font text-gray dark:text-white">
+        <em className=" text-center font-medium title-font text-gray dark:text-white mt-4">
           ‹Documents & Certificates›
         </em>
         <h1 className="text-center sm:text-4xl text-3xl font-medium title-font mb-4 dark:text-white ">
