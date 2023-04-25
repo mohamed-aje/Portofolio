@@ -60,7 +60,7 @@ const Tabs = ({ color }) => {
                 Internship Certificate
               </a>
             </li>
-            <li className="-mb-px mr-2 my-2 last:mr-0 flex-auto text-center">
+            <li className="-mb-px mr-3 my-2 last:mr-0 flex-auto text-center">
               <a
                 className={
                   "text-xs font-bold uppercase 	 px-5 py-3 shadow-lg rounded block leading-normal " +
