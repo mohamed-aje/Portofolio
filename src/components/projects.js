@@ -1,47 +1,38 @@
 import React from "react";
 import { CodeBracketIcon } from "@heroicons/react/24/solid";
-
 import { projects } from "../data";
 
 export default function Projects() {
   return (
-    <section
-      id="projects"
-      className="dark:text-gray-400 dark:bg-gradient-to-r from-sky-700 via-cyan-900 to-sky-700 body-font"
-    >
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40 ">
+    <section id="projects" className="bg-gray-100 dark:bg-gray-900 body-font">
+      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
-          <span class="h-1 w-full dark:bg-white bg-gray-800 lg:w-full	"></span>
-          <em className="  font-medium title-font mb-4 dark:text-white mt-4">
+          <span className="h-1 w-full bg-gray-800 dark:bg-white lg:w-full"></span>
+          <em className="font-medium title-font mb-4 dark:text-white mt-4">
             ‹Process of learning›
           </em>
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 dark:text-white ">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 dark:text-white">
             School And Hobby Projects:
-            <br />
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base "></p>
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base dark:text-white"></p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {projects.map((project) => (
-            <a
-              href={project.link}
-              key={project.image}
-              className="sm:w-1/2 w-100 p-4"
-            >
-              <div className="flex relative ">
+            <a href={project.link} key={project.image} className="group">
+              <div className="relative overflow-hidden bg-gray-800 dark:bg-gray-700 rounded shadow-md h-full">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  className="object-cover w-full h-48 md:h-56 lg:h-64"
                   src={project.image}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-gray-400 mb-1">
+                <div className="p-4">
+                  <h2 className="text-sm text-gray-400 dark:text-gray-300 mb-1">
                     {project.subtitle}
                   </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
+                  <h1 className="text-lg font-medium text-white dark:text-white mb-3">
                     {project.title}
                   </h1>
-                  <p className="leading-relaxed text-white">
+                  <p className="text-white dark:text-gray-300">
                     {project.description}
                   </p>
                 </div>
