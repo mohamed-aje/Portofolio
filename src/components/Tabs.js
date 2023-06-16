@@ -7,6 +7,13 @@ const Tabs = ({ color }) => {
     setOpenTab(tab);
   };
 
+  const handleDownload = (imageName) => {
+    const link = document.createElement("a");
+    link.href = imageName;
+    link.download = "image.png";
+    link.click();
+  };
+
   return (
     <section id="certificates" className="bg-gray-100 dark:bg-gray-900">
       <div className="flex flex-col w-full mb-14 items-center">
@@ -77,21 +84,24 @@ const Tabs = ({ color }) => {
                   <img
                     src="cof.png"
                     alt="Certificate of Study"
-                    className="h-auto max-w-lg mx-auto transition-all duration-300 rounded-lg blur-sm hover:blur-none max-w-sm max-w-xs"
+                    className="h-auto max-w-lg mx-auto transition-all duration-300 rounded-lg blur-sm hover:blur-none max-w-sm max-w-xs cursor-pointer"
+                    onClick={() => handleDownload("cof.png")}
                   />
                 </div>
                 <div className={openTab === 2 ? "block" : "hidden"} id="link2">
                   <img
                     src="internship.png"
                     alt="Internship Certificate"
-                    className="h-auto max-w-lg mx-auto transition-all duration-300 rounded-lg blur-sm hover:blur-none max-w-sm max-w-xs"
+                    className="h-auto max-w-lg mx-auto transition-all duration-300 rounded-lg blur-sm hover:blur-none max-w-sm max-w-xs cursor-pointer"
+                    onClick={() => handleDownload("internship.png")}
                   />
                 </div>
                 <div className={openTab === 3 ? "block" : "hidden"} id="link3">
                   <img
                     src="resume.png"
                     alt="Resume"
-                    className="h-auto max-w-lg mx-auto transition-all duration-300 rounded-lg blur-sm hover:blur-none max-w-sm max-w-xs"
+                    className="h-auto max-w-lg mx-auto transition-all duration-300 rounded-lg blur-sm hover:blur-none max-w-sm max-w-xs cursor-pointer"
+                    onClick={() => handleDownload("resume.png")}
                   />
                 </div>
               </div>
