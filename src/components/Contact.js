@@ -23,7 +23,10 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="text-gray-800 dark:bg-gray-900">
+    <section
+      id="contact"
+      className="text-gray-900 bg-gray-100 dark:bg-gray-900"
+    >
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="relative overflow-hidden bg-no-repeat bg-cover"></div>
         <div className="container text-gray-800 px-4 md:px-12">
