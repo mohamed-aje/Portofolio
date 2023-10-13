@@ -25,7 +25,7 @@ export const projects = [
     description:
       "Landing Page and B2b Dashboard for user management and flight reservations located in Baghdad. ",
     image: "./flight.gif",
-    link: "https://www.omarparturi.fi",
+    link: "https://ridefly.com/",
   },
   {
     title: "Full stack Blogs Application",
