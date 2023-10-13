@@ -15,14 +15,14 @@ export default function Home() {
             Building Applications is My Passion.
           </h1>
           <p className="mb-8 leading-relaxed">
-            I am a passionate recent graduate with a permanent residence permit.
-            I have graduated from Häme University of Applied Sciences (HAMK)
-            with a major in software development, achieving a GPA of 4. During
-            my studies, I have gained valuable knowledge and skills in various
-            areas of software development. I am enthusiastic about turning my
-            dedication and hard work into real-world results. In my spare time,
-            I enjoy reading, exercising, socializing, and exploring new
-            technologies.
+            I am a passionate front end developer with a permanent residence
+            permit. I have graduated from Häme University of Applied Sciences
+            (HAMK) with a major in software development, achieving a GPA of 4.
+            During my studies, I have gained valuable knowledge and skills in
+            various areas of software development. I am enthusiastic about
+            turning my dedication and hard work into real-world results. In my
+            spare time, I enjoy reading, exercising, socializing, and exploring
+            new technologies.
           </p>
 
           <div className="flex justify-center">

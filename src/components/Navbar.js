@@ -30,12 +30,12 @@ export default function Navbar() {
           >
             Publications
           </a>
-          <a
+          {/* <a
             href="#certificates"
             className="mr-5 text-white dark:text-white hover:text-gray-300"
           >
             Certifications
-          </a>
+          </a> */}
           <a
             href="#contact"
             className="mr-5 text-white dark:text-white hover:text-gray-300"

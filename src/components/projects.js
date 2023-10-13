@@ -12,7 +12,7 @@ export default function Projects() {
             ‹Process of learning›
           </em>
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 dark:text-white">
-            School And Hobby Projects:
+            Hobby Projects & Real Projects
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base dark:text-white"></p>
         </div>

@@ -12,7 +12,7 @@ const App = () => {
         <Navbar />
         <Home />
         <Projects />
-        <Tabs color="gray" />
+        {/* <Tabs color="gray" /> */}
         <Publications />
         <Contacts />
       </main>

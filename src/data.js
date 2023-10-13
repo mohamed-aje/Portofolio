@@ -13,6 +13,21 @@ export const skills = [
 ];
 export const projects = [
   {
+    title: "Barber Project",
+    subtitle: "React",
+    description: "Single Web Application for barbershop located in Tampere. ",
+    image: "./barber.gif",
+    link: "https://www.omarparturi.fi",
+  },
+  {
+    title: "Ridefly B2b Flight Reservations",
+    subtitle: "React",
+    description:
+      "Landing Page and B2b Dashboard for user management and flight reservations located in Baghdad. ",
+    image: "./flight.gif",
+    link: "https://www.omarparturi.fi",
+  },
+  {
     title: "Full stack Blogs Application",
     subtitle: "Mern stack ",
     description: "Blogs application with CRUD operations. ",
